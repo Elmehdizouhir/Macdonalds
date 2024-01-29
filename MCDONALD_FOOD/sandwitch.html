@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Macdonald's sandwitch</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <script src="bootstrap.bundle.min.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap");
+      * {
+        font-family: "Ubuntu", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      #header {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: right;
+        text-decoration: none;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+      ul {
+        display: inline-block;
+        list-style-type: none;
+      }
+      ul li {
+        display: inline-block;
+        margin-right: 30px;
+      }
+      ul li a:hover {
+        color: darkgoldenrod;
+      }
+      .bergerv {
+        background-color: red;
+        border-radius: 10%;
+        margin: 2%;
+      }
+      .bergerv:hover {
+        background-color: white;
+        border: 2px solid red;
+        color: black;
+      }
+      .bergerc {
+        background-color: darkorange;
+        border-radius: 10%;
+        margin: 2%;
+      }
+      .bergerc:hover {
+        background-color: white;
+        border: 2px solid darkorange;
+        color: black;
+      }
+      .bergerf {
+        background-color: cornflowerblue;
+
+        border-radius: 10%;
+        margin: 2%;
+      }
+      .bergerf:hover {
+        background-color: white;
+        border: 2px solid cornflowerblue;
+        color: black;
+      }
+      .p1 {
+        float: right;
+      }
+      .p2 {
+        text-align: end;
+      }
+      .partie1 {
+        box-shadow: 2px 22px 20px;
+        border-radius: 15%;
+      }
+      /* footer {
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin-top: 200px;
+      } */
+      #mac {
+        text-align: center;
+        font-size: smaller;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <div id="header" class="row bg-warning">
+          <nav class="col-sm-3" style="text-align: left">
+            <img
+            src="images/logo mcd.png"
+            width="15%"
+            />
+          </nav>
+          <ul>
+            <li><a class="col-sm-2" href="principal.html">homme</a></li>
+            <li><a class="col-sm-2" href="#">contact</a></li>
+            <li><a class="col-sm-2" href="help.html">help</a></li>
+          </ul>
+        </div>
+      </header>
+      <tbody>
+        <div class="row m-5 p-5 partie1">
+          <a href="#" class="col-sm-3 bergerv">
+            <img
+              src="images/c1aca198154ca8f23f650718bbdf867f5a85602a5f4af9cd12f2b2be2cfa7196.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Double Big Tasty</p>
+            <p class="p2"><strong>72.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerv">
+            <img
+              src="images/cdea87066ab3fdac3b36808823e8a1881f27b9c13a128fc05d3132fcb38f7f32.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Grand Classic</p>
+            <p class="p2"><strong>63.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerv">
+            <img
+              src="images/0331e8ea493cdc83e3112941e85f77296f596906c859b096c0d8900e3fc5c73c.png"
+              width="43%"
+              alt="logo"
+            />
+            <p class="p1">Double Royal Cheese</p>
+            <p class="p2"><strong>62.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerv">
+            <img
+              src="images/197cd69fb55836ce19e5853fa98f24e1415877fcdc45b49b437d8476605b8966.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Big Tasty™</p>
+            <p class="p2"><strong>62.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerv">
+            <img
+              src="https://d25cgfcdeti393.cloudfront.net/JF-4841.png"
+              width="45%"
+              alt="logo"
+            />
+            <p class="p1">280™ Original</p>
+            <p class="p2"><strong>61.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerc">
+            <img
+              src="images/4758f3e5405dbae87ec07ca8fc6c378af5f372b96e70a8c3c37a0ce193b729ff.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Big Tasty chicken</p>
+            <p class="p2"><strong>61.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerc">
+            <img
+              src="images/999e9cfd32857f1881098644aad2af934bafe3cc4f56796700ae28a3d2645144.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Chicken Mythic™</p>
+            <p class="p2"><strong>61.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerv">
+            <img
+              src="images/860a65330bb658b7deaf6956d08742fda0ee1c8897668df1555e77fa42897112.png"
+              width="42%"
+              alt="logo"
+            />
+            <p class="p1">Smokey Barbecue</p>
+            <p class="p2"><strong>50.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerf">
+            <img
+              src="images/5273ed5e4fd9fe7026dada55edeb219a54ef78eb62c36e222d771617b2cd7081.png"
+              width="42%"
+              alt="logo"
+            />
+            <p class="p1">Double Filet-o-Fish</p>
+            <p class="p2"><strong>48.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerv">
+            <img
+              src="images/db710e7bca43fe41f5547033e72e3a05ce8fbf9dd1075bedd86ef318cd148a81.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Big Mac™</p>
+            <p class="p2"><strong>47.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerv">
+            <img
+              src="images/cac47e7414ad0401b502b54baff1de63799f9a488aebcc08f412f75689949ea5.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Triple Cheese</p>
+            <p class="p2"><strong>47.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerc">
+            <img
+              src="images/c8bf866d25a470b702219f989d358b754cb4bc6a990da548ab296499662cd22c.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">McChicken™</p>
+            <p class="p2"><strong>46.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerv">
+            <img
+              src="images/4f6d2514c1e1716c3fb3fc268ff05524f1aad69a7520b6db4cc1a3f7bc2ff91a.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Royal Cheese™</p>
+            <p class="p2"><strong>45.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerf">
+            <img
+              src="images/8191309ff056fd408c4fcbc77fa23131a9fea9785709faf624aca9fa18e6eb29.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Filet-o-Fish™</p>
+            <p class="p2"><strong>43.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerv">
+            <img
+              src="images/c2ddb1b1c6fbba58bad0d5852f8b2b584251e92d76f2177fde54f76c6dd7e15c.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Double Cheese</p>
+            <p class="p2"><strong>42.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerv">
+            <img
+              src="images/99b6ec68612a89dc6d802ae321553444f0cc79b80bac49c21cdde60c15332d08.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Smokey Junior</p>
+            <p class="p2"><strong>28.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerc">
+            <img
+              src="images/f18626460c26c1123acc8e720929d0d987d50f94df9c3a5d460a9ad7f8d4767c.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Tasty Junior Chicken</p>
+            <p class="p2"><strong>24.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerv">
+            <img
+              src="images/ed586cc37f793ab91191efb44d91c15635ed303c89a8c022da56c554a9c786b0.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Tasty Junior</p>
+            <p class="p2"><strong>22.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerc">
+            <img
+              src="images/2afb4dbad6c623f25479fed13a17d849ed0a271c8d26240edba8d258eb076325.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Chicken Cheese</p>
+            <p class="p2"><strong>20.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerc">
+            <img
+              src="images/5dbea1f07ac740845c22e47e43656d8c4f115b0f8c5b864ea325df8fe37afb23.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Chicken Burger</p>
+            <p class="p2"><strong>19.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerv">
+            <img
+              src="images/17844c83060e1cba4eba0dba1ea6560697125a08a84e226021bc049407e667f3.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Cheeseburger</p>
+            <p class="p2"><strong>18.00 MAD</strong></p>
+          </a>
+          <a href="#" class="col-sm-3 bergerv">
+            <img
+              src="images/f697cf67174f8dcab5a8e9c570dda693260e23e9a59b7cd40e14ccac25288be7.png"
+              width="50%"
+              alt="logo"
+            />
+            <p class="p1">Hamburger</p>
+            <p class="p2"><strong>15.00 MAD</strong></p>
+          </a>
+        </div>
+      </tbody>
+      <footer>
+        <div>
+          <p id="mac">Macdonald1@gmail.com</p1>
+          <p id="mac">We have condition in our society....we respect that</p1>
+          <p id="mac">thank you for reading</p1>
+          <p id="mac">2023 Your Website. All rights reserved. | Inspired by
+            McDonald's</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
