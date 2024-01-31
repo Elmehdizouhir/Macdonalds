@@ -155,9 +155,9 @@
       <div class="vid">
 
       </div>
-          <p id="mac">Macdonald1@gmail.com</p1>
-          <p id="mac">We have condition in our society....we respect that</p1>
-          <p id="mac">thank you for reading</p1>
+          <p id="mac">Macdonald1@gmail.com</p>
+          <p id="mac">We have condition in our society....we respect that</p>
+          <p id="mac">thank you for reading</p>
           <p id="mac">2023 Your Website. All rights reserved. | Inspired by
             McDonald's</p>
         
